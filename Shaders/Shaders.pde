@@ -2,7 +2,7 @@ PShader Shrtoy;
 void setup() {
   size(640, 360, P2D);
   noStroke();
-  Shrtoy = loadShader("ShrtoyFrag.glsl"); 
+  Shrtoy = loadShader("ShrToyFrag.glsl"); 
   Shrtoy.set("iResolution", float(width), float(height));
 }
 void draw() {
